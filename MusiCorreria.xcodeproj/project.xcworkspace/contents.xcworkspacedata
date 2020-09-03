@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/eduardo.lopes.c/Documents/Projetos/MusiCorreria/MusiCorreria/SpotifyAudioPlayback.framework">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/eduardo.lopes.c/Documents/Projetos/MusiCorreria/MusiCorreria/SpotifyAuthentication.framework">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/eduardo.lopes.c/Documents/Projetos/MusiCorreria/MusiCorreria/SpotifyMetadata.framework">
+   </FileRef>
+   <FileRef
       location = "self:MusiCorreria.xcodeproj">
    </FileRef>
 </Workspace>

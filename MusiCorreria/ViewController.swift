@@ -7,14 +7,26 @@
 //
 
 import UIKit
+import SafariServices
+import AVFoundation
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, SPTAudioStreamingPlaybackDelegate, SPTAudioStreamingDelegate {
+    
+    
+    @IBOutlet var logButton: UIButton!
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
+    
+    
+    @IBAction func loginTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "umParaDois", sender: nil)
+print("apertou")
+        
 
-
+    
+    }
+    
 }
-

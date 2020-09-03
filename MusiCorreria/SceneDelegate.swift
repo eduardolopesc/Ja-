@@ -7,17 +7,50 @@
 //
 
 import UIKit
+import AVFoundation
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var auth = SPTAuth()
 
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+                print("aaaaaaaa")
+        if let url = URLContexts.first?.url {
+        if auth.canHandle(auth.redirectURL) {
+            // 3 - handle callback in closure
+            auth.handleAuthCallback(withTriggeredAuthURL: url, callback: { (error, session) in
+                // 4- handle error
+                if error != nil {
+                    print("error!")
+                }
+                // 5- Add session to User Defaults
+                let array = url.absoluteString.components(separatedBy: "=")
+                let spotifycode = array[1]
+                print(spotifycode)
+                let userDefaults = UserDefaults.standard
+                userDefaults.set(spotifycode, forKey: "SpotifyCode") 
 
+                let sessionData = NSKeyedArchiver.archivedData(withRootObject: session)
+                print(sessionData)
+                print("deveria vir session data")
+                userDefaults.set(sessionData, forKey: "SpotifySession")
+                userDefaults.synchronize()
+                // 6 - Tell notification center login is successful
+                NotificationCenter.default.post(name: Notification.Name(rawValue: "loginSuccessfull"), object: nil)
+                print("logou")
+            })
+        }
+    }
+        }
+    
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        auth.redirectURL = URL(string: "MusiCorreria://returnAfterLogin")
+        auth.sessionUserDefaultsKey = "current session"
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -48,7 +81,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
 
         // Save changes in the application's managed object context when the application transitions to the background.
-        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+       // (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
 
 

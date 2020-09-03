@@ -9,23 +9,43 @@
 /* Begin PBXBuildFile section */
 		3354344F24F83A7100616791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3354344E24F83A7100616791 /* AppDelegate.swift */; };
 		3354345124F83A7100616791 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3354345024F83A7100616791 /* SceneDelegate.swift */; };
-		3354345324F83A7100616791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3354345224F83A7100616791 /* ViewController.swift */; };
 		3354345624F83A7100616791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3354345424F83A7100616791 /* Main.storyboard */; };
-		3354345924F83A7100616791 /* MusiCorreria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3354345724F83A7100616791 /* MusiCorreria.xcdatamodeld */; };
 		3354345B24F83A7300616791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3354345A24F83A7300616791 /* Assets.xcassets */; };
 		3354345E24F83A7300616791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3354345C24F83A7300616791 /* LaunchScreen.storyboard */; };
+		3354347124FD3D7D00616791 /* Bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3354347024FD3D7D00616791 /* Bridge.m */; };
+		337019B724FD432C00EBAD9E /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337019B424FD432C00EBAD9E /* SpotifyAuthentication.framework */; };
+		337019B824FD432C00EBAD9E /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337019B524FD432C00EBAD9E /* SpotifyMetadata.framework */; };
+		337019B924FD432C00EBAD9E /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337019B624FD432C00EBAD9E /* SpotifyAudioPlayback.framework */; };
+		337019BF25012C5700EBAD9E /* Playlists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337019BE25012C5600EBAD9E /* Playlists.swift */; };
+		337019C12501307800EBAD9E /* PlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337019C02501307800EBAD9E /* PlaylistsViewController.swift */; };
+		337019C32501343600EBAD9E /* PlaylistsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337019C22501343600EBAD9E /* PlaylistsTableViewCell.swift */; };
+		33701A10250138D500EBAD9E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33701A0F250138D500EBAD9E /* LoginViewController.swift */; };
+		33701A1225014BF100EBAD9E /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33701A1125014BF100EBAD9E /* PlayerViewController.swift */; };
+		33701A142501577800EBAD9E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33701A132501577800EBAD9E /* NotificationsViewController.swift */; };
+		33701A16250196F200EBAD9E /* RUNNINGS.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 33701A15250196F200EBAD9E /* RUNNINGS.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3354344B24F83A7100616791 /* MusiCorreria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusiCorreria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3354344B24F83A7100616791 /* Já!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Já!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3354344E24F83A7100616791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3354345024F83A7100616791 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3354345224F83A7100616791 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3354345524F83A7100616791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3354345824F83A7100616791 /* MusiCorreria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusiCorreria.xcdatamodel; sourceTree = "<group>"; };
 		3354345A24F83A7300616791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3354345D24F83A7300616791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3354345F24F83A7300616791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3354346E24FD3D7D00616791 /* MusiCorreria-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusiCorreria-Bridging-Header.h"; sourceTree = "<group>"; };
+		3354346F24FD3D7D00616791 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		3354347024FD3D7D00616791 /* Bridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bridge.m; sourceTree = "<group>"; };
+		337019B424FD432C00EBAD9E /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		337019B524FD432C00EBAD9E /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
+		337019B624FD432C00EBAD9E /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		337019BE25012C5600EBAD9E /* Playlists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlists.swift; sourceTree = "<group>"; };
+		337019C02501307800EBAD9E /* PlaylistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsViewController.swift; sourceTree = "<group>"; };
+		337019C22501343600EBAD9E /* PlaylistsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsTableViewCell.swift; sourceTree = "<group>"; };
+		33701A0F250138D500EBAD9E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		33701A1125014BF100EBAD9E /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		33701A132501577800EBAD9E /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		33701A15250196F200EBAD9E /* RUNNINGS.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = RUNNINGS.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337019B824FD432C00EBAD9E /* SpotifyMetadata.framework in Frameworks */,
+				337019B724FD432C00EBAD9E /* SpotifyAuthentication.framework in Frameworks */,
+				337019B924FD432C00EBAD9E /* SpotifyAudioPlayback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +73,7 @@
 		3354344C24F83A7100616791 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3354344B24F83A7100616791 /* MusiCorreria.app */,
+				3354344B24F83A7100616791 /* Já!.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,12 +83,23 @@
 			children = (
 				3354344E24F83A7100616791 /* AppDelegate.swift */,
 				3354345024F83A7100616791 /* SceneDelegate.swift */,
-				3354345224F83A7100616791 /* ViewController.swift */,
+				33701A0F250138D500EBAD9E /* LoginViewController.swift */,
+				337019C02501307800EBAD9E /* PlaylistsViewController.swift */,
+				33701A1125014BF100EBAD9E /* PlayerViewController.swift */,
+				33701A132501577800EBAD9E /* NotificationsViewController.swift */,
 				3354345424F83A7100616791 /* Main.storyboard */,
 				3354345A24F83A7300616791 /* Assets.xcassets */,
 				3354345C24F83A7300616791 /* LaunchScreen.storyboard */,
+				337019C22501343600EBAD9E /* PlaylistsTableViewCell.swift */,
+				337019BE25012C5600EBAD9E /* Playlists.swift */,
 				3354345F24F83A7300616791 /* Info.plist */,
-				3354345724F83A7100616791 /* MusiCorreria.xcdatamodeld */,
+				3354346E24FD3D7D00616791 /* MusiCorreria-Bridging-Header.h */,
+				3354346F24FD3D7D00616791 /* Bridge.h */,
+				33701A15250196F200EBAD9E /* RUNNINGS.TTF */,
+				3354347024FD3D7D00616791 /* Bridge.m */,
+				337019B624FD432C00EBAD9E /* SpotifyAudioPlayback.framework */,
+				337019B424FD432C00EBAD9E /* SpotifyAuthentication.framework */,
+				337019B524FD432C00EBAD9E /* SpotifyMetadata.framework */,
 			);
 			path = MusiCorreria;
 			sourceTree = "<group>";
@@ -87,7 +121,7 @@
 			);
 			name = MusiCorreria;
 			productName = MusiCorreria;
-			productReference = 3354344B24F83A7100616791 /* MusiCorreria.app */;
+			productReference = 3354344B24F83A7100616791 /* Já!.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,6 +136,7 @@
 				TargetAttributes = {
 					3354344A24F83A7100616791 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -128,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33701A16250196F200EBAD9E /* RUNNINGS.TTF in Resources */,
 				3354345E24F83A7300616791 /* LaunchScreen.storyboard in Resources */,
 				3354345B24F83A7300616791 /* Assets.xcassets in Resources */,
 				3354345624F83A7100616791 /* Main.storyboard in Resources */,
@@ -141,10 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3354345324F83A7100616791 /* ViewController.swift in Sources */,
+				33701A10250138D500EBAD9E /* LoginViewController.swift in Sources */,
 				3354344F24F83A7100616791 /* AppDelegate.swift in Sources */,
-				3354345924F83A7100616791 /* MusiCorreria.xcdatamodeld in Sources */,
+				337019C12501307800EBAD9E /* PlaylistsViewController.swift in Sources */,
+				3354347124FD3D7D00616791 /* Bridge.m in Sources */,
 				3354345124F83A7100616791 /* SceneDelegate.swift in Sources */,
+				337019BF25012C5700EBAD9E /* Playlists.swift in Sources */,
+				33701A142501577800EBAD9E /* NotificationsViewController.swift in Sources */,
+				337019C32501343600EBAD9E /* PlaylistsTableViewCell.swift in Sources */,
+				33701A1225014BF100EBAD9E /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,15 +329,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MusiCorreria",
+				);
 				INFOPLIST_FILE = MusiCorreria/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = elc.MusiCorreria;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Já!";
+				SWIFT_OBJC_BRIDGING_HEADER = "MusiCorreria/MusiCorreria-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,15 +356,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MusiCorreria",
+				);
 				INFOPLIST_FILE = MusiCorreria/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = elc.MusiCorreria;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Já!";
+				SWIFT_OBJC_BRIDGING_HEADER = "MusiCorreria/MusiCorreria-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,19 +400,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3354345724F83A7100616791 /* MusiCorreria.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3354345824F83A7100616791 /* MusiCorreria.xcdatamodel */,
-			);
-			currentVersion = 3354345824F83A7100616791 /* MusiCorreria.xcdatamodel */;
-			path = MusiCorreria.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3354344324F83A7100616791 /* Project object */;
 }
