@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPhone 11 Pro Max - 1" translatesAutoresizingMaskIntoConstraints="NO" id="qHf-46-bTm">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela1" translatesAutoresizingMaskIntoConstraints="NO" id="qHf-46-bTm">
                                 <rect key="frame" x="0.0" y="-56" width="422" height="1016"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60569375749999999" green="0.77561432119999996" blue="0.81961697339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -71,11 +71,11 @@
                                             <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" name="Runningshoe" family="Running shoe" pointSize="17"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="textColor" red="0.017332542690000001" green="0.2402515113" blue="0.36864289639999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.91372549020000005" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.65625077489999994" green="0.79145652060000005" blue="0.82745879889999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.47131389379999999" green="0.83002012970000005" blue="0.89805310959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
@@ -102,21 +102,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPhone 11 Pro Max - 2-2" translatesAutoresizingMaskIntoConstraints="NO" id="I6J-jP-1AV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela3" translatesAutoresizingMaskIntoConstraints="NO" id="I6J-jP-1AV">
                                 <rect key="frame" x="0.0" y="-55" width="422" height="1013"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bora, se movimenta!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIr-Lk-UYc">
-                                <rect key="frame" x="91" y="411" width="233" height="243"/>
+                                <rect key="frame" x="91" y="390" width="233" height="243"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MuktaMahee-Bold" family="Mukta Mahee" pointSize="28"/>
-                                <color key="textColor" red="0.58764835989999997" green="0.35686274509999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Runningshoe" family="Running shoe" pointSize="28"/>
+                                <color key="textColor" red="0.017332542690000001" green="0.2402515113" blue="0.36864289639999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vt5-ev-dtX">
-                                <rect key="frame" x="147" y="687" width="128" height="47"/>
+                                <rect key="frame" x="249" y="775" width="122" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="botão cansei"/>
+                                <state key="normal" image="cansei"/>
                                 <connections>
                                     <action selector="botaoCansei:" destination="pJm-gJ-uFG" eventType="touchUpInside" id="vXB-cq-AHe"/>
                                     <segue destination="CXw-nH-Cnv" kind="presentation" modalPresentationStyle="fullScreen" id="clo-Tb-GR4"/>
@@ -146,7 +146,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPhone 11 Pro Max - 3-2" translatesAutoresizingMaskIntoConstraints="NO" id="21G-P7-PWE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tela4" translatesAutoresizingMaskIntoConstraints="NO" id="21G-P7-PWE">
                                 <rect key="frame" x="0.0" y="-60" width="422" height="1013"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -157,10 +157,10 @@
                                     <action selector="datePickerChange:" destination="CXw-nH-Cnv" eventType="valueChanged" id="Qgu-Hh-EaR"/>
                                 </connections>
                             </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfx-GY-0xS">
-                                <rect key="frame" x="141" y="696" width="141" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfx-GY-0xS">
+                                <rect key="frame" x="279" y="769" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="BELEZA" image="botão agendar"/>
+                                <state key="normal" title="BELEZA"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Dt6-Fj-jOl"/>
                                 </connections>
@@ -200,11 +200,10 @@
         <segue reference="Dt6-Fj-jOl"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="botão agendar" width="246" height="82"/>
-        <image name="botão cansei" width="246" height="82"/>
-        <image name="iPhone 11 Pro Max - 1" width="828" height="1792"/>
-        <image name="iPhone 11 Pro Max - 2-2" width="828" height="1792"/>
-        <image name="iPhone 11 Pro Max - 3-2" width="828" height="1792"/>
+        <image name="cansei" width="526" height="246"/>
         <image name="image-asset" width="806" height="141"/>
+        <image name="tela1" width="850" height="1820"/>
+        <image name="tela3" width="850" height="1820"/>
+        <image name="tela4" width="850" height="1820"/>
     </resources>
 </document>
